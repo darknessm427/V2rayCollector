@@ -1,7 +1,7 @@
 <?php
 
 $url = 'https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/vmess';
-$filePath = 'https://github.com/mansor427/DarknessSub/blob/main/Vmess';
+$filePath = 'https://github.com/mansor427/DarknessSub/Vmess';
 
 $content = file_get_contents($url);
 
