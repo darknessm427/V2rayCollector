@@ -1,6 +1,7 @@
 name: Collector
 on:
   workflow_dispatch:
+  
   schedule:
     - cron: "0 */1 * * *"
 
@@ -10,21 +11,22 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
 
-    - name: Set up Go
-      uses: actions/setup-go@v2
+    - uses: actions/setup-go@v4
       with:
-        go-version: 1.17
+        go-version: '>=1.21.3'
+    - run: go version
 
     - name: Build and run Golang file
       run: |
-        go run ./main.go
+          go build -o myapp
+          ./myapp -sort
     
     - name: Commit Changes
       run: |
-        git config --local user.email "darknessm.427@gmail.com"
-        git config --local user.name "darknessm427"
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
         git pull origin main
         git add ./vmess_iran.txt
         git add ./trojan_iran.txt
