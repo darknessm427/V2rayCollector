@@ -1,3 +1,8 @@
+//profile-title: base64:Vmxlc3PjgJjirLPwk4SC8JOGg+Kfv+OAmVZsZXNz
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//profile-web-page-url: https://github.com/mansor427
+
 vless://e44f5f09-9c6a-4783-b1df-29cd4abd785f@185.146.173.58:8080/?type=ws&encryption=none&host=redc.servernet.fun.&path=%2F#%E2%98%AC%20SH%CE%9E%D0%AFVIN%E2%84%A2
 vless://378ac207-38d3-4401-ba96-3a7931968bc5@104.16.61.8:80/?type=ws&encryption=none&host=ca.vpnbase.net&path=%2Fhttp#%E2%98%AC%20SH%CE%9E%D0%AFVIN%E2%84%A2
 vless://fb47f79f-ea8d-4ed9-840b-62751b0e4360@172.66.44.135:2052/?type=ws&encryption=none&host=1.ftp.debian.org.www.speedtest.net.%E5%85%8D%E8%B4%B9%E4%B8%8A%E7%BD%9167.Site.&path=%2F%2Ftelegram-proxy-mtm-telegram-proxy-mtm-telegram-proxy-mtm%3Fed%3D2048#%E2%98%AC%20SH%CE%9E%D0%AFVIN%E2%84%A2
