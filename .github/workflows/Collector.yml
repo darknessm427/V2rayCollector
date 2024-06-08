@@ -26,11 +26,11 @@ jobs:
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git pull origin main
-        git add ./vmess_iran.txt
-        git add ./trojan_iran.txt
-        git add ./vless_iran.txt
-        git add ./ss_iran.txt
-        git add ./mixed_iran.txt
+        git add ./darkness_vmess.txt
+        git add ./darkness_trojan.txt
+        git add ./darkness_vless.txt
+        git add ./darkness_ss.txt
+        git add ./darkness_mixed.txt
         git checkout main
         git commit -m "✔️ $(date '+%Y-%m-%d %H:%M:%S') Collected"
     - name: Push Changes
