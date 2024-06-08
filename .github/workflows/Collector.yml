@@ -32,7 +32,7 @@ jobs:
         git add ./darkness_ss.txt
         git add ./darkness_mixed.txt
         git checkout main
-        git commit -m "✔️ $(date '+%Y-%m-%d %H:%M:%S') Collected"
+        git commit -m "👽 $(date '+%Y-%m-%d %H:%M:%S') 👌Update"
     - name: Push Changes
       uses: ad-m/github-push-action@master
       with:
